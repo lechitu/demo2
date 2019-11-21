@@ -1,0 +1,94 @@
+.content {
+    width: 100%;
+    height: auto;
+}
+.information {
+    width: 30%;
+    float: left;
+}
+.inf p {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.inf input {
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+}
+.day p {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.day input {
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+}
+.choice p {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.choice select {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+.btn_new {
+    margin-top: 20px;
+}
+.btn {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.btn button {
+    background: blue;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+}
+.list {
+    width: 70%;
+    float: left;
+}   
+.txt_search {
+    float: left;
+    width: 88%;
+}
+.txt_search input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+.btn_search {
+    padding-left: 20px;
+}
+.btn_search button {
+    height: 30px;
+    margin: 10px;
+}
+.tb {
+    margin-top: 30px;
+}
+.tb table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.tb tr {
+    height: 50px;
+}
+.tb th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: orchid;
+    color: #fff;
+}
+.tb td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: #fff;
+}

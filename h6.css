@@ -1,0 +1,58 @@
+.content {
+    width: 100%;
+    height: auto;
+}
+.information {
+    width: 45%;
+    float: left;
+}
+.inf p {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.inf input {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+}
+.btn_new {
+    margin-top: 20px;
+}
+.btn {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+.btn button {
+    background: blue;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+}
+.list {
+    width: 55%;
+    float: left;
+}
+.tb {
+    margin-top: 30px;
+}
+.tb table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.tb tr {
+    height: 50px;
+}
+.tb th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: orchid;
+    color: #fff;
+}
+.tb td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: #fff;
+}
