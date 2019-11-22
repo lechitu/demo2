@@ -67,7 +67,7 @@
             <div class="information">
                 <div class="inf">
                     <p>Điểm danh ngày hôm nay:</p>
-                    <input type="text" value="12-10-2017">
+                    <input type="date">
                 </div>
                 <div class="btn_new">
                     <div class="btn">
@@ -113,5 +113,10 @@
             </div>
         </div>
     </div>
+    <script>
+        var d = new Date();
+        var month = d.getMonth()+1;
+        document.getElementById("date").innerHTML = d.getDate()+"/"+month+"/"+d.getFullYear();
+    </script>
 </body>
 </html>
