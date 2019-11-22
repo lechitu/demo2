@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="bai2.css">
+    <link rel="stylesheet" href="h7_2.css">
 </head>
 <body>
     <div class="header">
@@ -21,14 +22,35 @@
     <div class="menu">
         <div class="container">
             <ul class="ul_menu">
-                <li><a href=""><img src="images/icon1.png" alt=""></a></li>
-                <li><a href=""><img src="images/icon2.png" alt=""></a></li>
-                <li><a href=""><img src="images/icon3.png" alt=""></a></li>
-                <li><a href=""><img src="images/icon4.png" alt=""></a></li>
-                <li><a href=""><img src="images/icon5.png" alt=""></a></li>
-                <li><a href=""><img src="images/icon6.png" alt=""></a></li>
-                <li><a href=""><img src="images/icon7.png" alt=""></a></li>
-                <li><a href=""><img src="images/icon8.png" alt=""></a></li>
+                <li><a href="hinh1.html"><img src="images/icon1.png" alt=""></a></li>
+                <li><a href="hinh2.html"><img src="images/icon2.png" alt=""></a></li>
+                <li><a href="hinh3.html"><img src="images/icon3.png" alt=""></a></li>
+                <li><a href="hinh4.html"><img src="images/icon4.png" alt=""></a></li>
+                <li><a href="hinh5.html"><img src="images/icon5.png" alt=""></a></li>
+                <li><a href="hinh6.html"><img src="images/icon6.png" alt=""></a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="hinh7_1.html"><img class="dropimg" src="images/icon7.png"></a>
+                        <div class="dropdown-content">
+                            <a href="hinh7_1.html">Tính lương giáo viên</a>
+                            <a href="hinh7_2.html">Bảng lương giáo viên</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="hinh8_1.html"><img class="dropimg" src="images/icon8.png"></a>
+                        <div class="dropdown-content">
+                            <a href="hinh8_1.html">Khối lớp</a>
+                            <a href="hinh8_2.html">Năm học</a>
+                            <a href="hinh8_3.html">Nghề nghiệp</a>
+                            <a href="hinh8_4.html">Phòng học</a>
+                            <a href="hinh8_5.html">Tôn giáo</a>
+                            <a href="hinh8_6.html">Trình độ</a>
+                            <a href="hinh8_7.html">Dân tộc</a>
+                        </div>
+                    </div>
+                </li>
                 <li><a href=""><img src="images/icon9.png" alt=""></a></li>
             </ul>
         </div>
@@ -36,8 +58,106 @@
     <div class="titles">
         <div class="container">
             <div class="titles_txt">
-                <h1>QUẢN LÍ GIÁO VIÊN</h1>
+                <h1>Bảng lương</h1>
             </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="col">
+                <div class="box">
+                    <div class="box_small">
+                        <div class="inf">
+                            <p>Mã giáo viên:</p>
+                            <input type="text">
+                        </div>
+                        <div class="teacher">
+                            <p>Giáo viên:</p>
+                            <select>
+                                <option value="">Nguyen Hoang Tung</option>
+                                <option value="">Phan Hong Nhung</option>
+                                <option value="">Huynh Thanh Truc</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_small">
+                        <div class="inf">
+                            <p>Tháng:</p>
+                            <input type="text">
+                        </div>
+                        <div class="inf">
+                            <p>Mã giáo viên:</p>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <div class="box_small">
+                    <div class="inf">
+                        <p>Trừ lương:</p>
+                        <input type="text">
+                    </div>
+                    <div class="inf">
+                        <p>Tạm ứng:</p>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box_small">
+                    <div class="number">
+                        <p>Lương cơ bản:</p>
+                        <input type="number">
+                    </div>
+                    <div class="number">
+                        <p>Phụ cấp:</p>
+                        <input type="number">
+                    </div>
+                    <div class="number">
+                        <p>Hệ số:</p>
+                        <input type="number">
+                    </div>
+                    <div class="number">
+                        <p>Bảo hiểm Y tế:</p>
+                        <input type="number">
+                    </div>
+                    <div class="number">
+                        <p>Bảo hiểm xã hội:</p>
+                        <input type="number">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="box">
+                <div class="box_small">
+                    <div class="number">
+                        <p>Ngày công:</p>
+                        <input type="number">
+                    </div>
+                    <div class="number">
+                        <p>Tổng lương:</p>
+                        <input type="number">
+                    </div>
+                    <div class="number">
+                        <p>Còn lại:</p>
+                        <input type="number">
+                    </div>
+                </div>
+            </div>
+            <div class="btn_new">
+                    <div class="btn">
+                        <button>Thêm mới</button>
+                    </div>
+                   <div class="btn">
+                        <button>Làm mới</button>
+                    </div>
+                </div>
         </div>
     </div>
 </body>
