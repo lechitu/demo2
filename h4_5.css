@@ -35,3 +35,7 @@
 .rad p {
     margin-bottom: 0px;
 }
+.content {
+    width: 100%;
+    display: flex;
+}
